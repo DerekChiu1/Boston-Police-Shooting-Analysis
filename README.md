@@ -23,17 +23,16 @@ This project aims to analyze the death cases involved in police violence and sho
 
 ## How to Use
 ### Using the py File:
-Info 
+The file reads and process the data in its first two functions, where a nested list is used to store data with each line/inner list being one victim's record. For data cleaning, records with missing or incomplete demographic information are removed. If you want to read and process the data in another approach, such as using pandas data frame to store the data and change the symbol of gender or race, then you're welcomed to modify the functions on your end to achieve these purposes. Functions 3 to 5 find the distribution of victims over different age, gender, and race by splitting the victims into different categories. For example, victims are splitted into two groups for gender since there are male and female. The same process is done for age and race groups as well. If you want to categorized victims in another way or based on other demographic information, feel free to adjust the code to do that. Finally, a class and function is used to generate plots using matplotlib, and if you want to use seaborn or plotly to make your plots, remember to install and import them on top of the file since these libraries aren't included in mine.
 
 ### Interpreting the Visualizations:
 Info
 
 ## Analysis You Can Do Using This Plots
-- 
-- 
-- 
-- 
-- 
+- Which age group has the highest death rate?
+- Which race group has the lowest death rate?
+- Are male more likely than female to get involved in police shooting events, or is it the other way around?
+- What's the population characteristics in terms of race, age, and gender that results in the highest death rate from police shooting events?
 
 ## Contributors
 1. Kuan-Chun Chiu (Myself) - beagledirk1@gmail.com
