@@ -1,0 +1,2 @@
+matplotlib >= 3.9.2
+csv >= 3.12.3
